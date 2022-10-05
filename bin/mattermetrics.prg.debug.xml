@@ -8,8 +8,8 @@
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="2" lineNum="16" parent="globals/Background" pc="268435502" symbol="draw"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="2" lineNum="18" parent="globals/Background" pc="268435506" symbol="draw"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="2" lineNum="19" parent="globals/Background" pc="268435555" symbol="draw"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268436313" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268436313" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268436293" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268436293" symbol="&lt;init&gt;"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="5" lineNum="7" parent="globals/mattermetricsApp" pc="268435568" symbol="initialize"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="5" lineNum="8" parent="globals/mattermetricsApp" pc="268435572" symbol="initialize"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="6" lineNum="12" parent="globals/mattermetricsApp" pc="268435591" symbol="onStart"/>
@@ -18,8 +18,8 @@
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="8" lineNum="21" parent="globals/mattermetricsApp" pc="268435605" symbol="getInitialView"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="9" lineNum="25" parent="globals/mattermetricsApp" pc="268435643" symbol="onSettingsChanged"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="9" lineNum="26" parent="globals/mattermetricsApp" pc="268435647" symbol="onSettingsChanged"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="10" lineNum="5" parent="globals/mattermetricsApp" pc="268436381" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="10" lineNum="5" parent="globals/mattermetricsApp" pc="268436381" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="10" lineNum="5" parent="globals/mattermetricsApp" pc="268436361" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="10" lineNum="5" parent="globals/mattermetricsApp" pc="268436361" symbol="&lt;init&gt;"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="11" lineNum="31" parent="globals" pc="268435664" symbol="getApp"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsApp.mc" id="11" lineNum="32" parent="globals" pc="268435676" symbol="getApp"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="13" lineNum="9" parent="globals/mattermetricsView" pc="268435693" symbol="initialize"/>
@@ -45,20 +45,20 @@
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="17" lineNum="54" parent="globals/mattermetricsView" pc="268436070" symbol="onHide"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="18" lineNum="58" parent="globals/mattermetricsView" pc="268436075" symbol="onExitSleep"/>
         <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="19" lineNum="62" parent="globals/mattermetricsView" pc="268436080" symbol="onEnterSleep"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="20" lineNum="7" parent="globals/mattermetricsView" pc="268436362" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="20" lineNum="7" parent="globals/mattermetricsView" pc="268436362" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="2" parent="globals/Rez/Drawables" pc="268436356" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="6" parent="globals/Rez/Fonts" pc="268436358" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="24" lineNum="8" parent="globals/Rez/JsonData" pc="268436360" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="20" lineNum="7" parent="globals/mattermetricsView" pc="268436342" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/aviitala/dev-personal/garmintutorial/mattermetrics/source/mattermetricsView.mc" id="20" lineNum="7" parent="globals/mattermetricsView" pc="268436342" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="2" parent="globals/Rez/Drawables" pc="268436336" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="23" lineNum="6" parent="globals/Rez/Fonts" pc="268436338" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="24" lineNum="8" parent="globals/Rez/JsonData" pc="268436340" symbol="&lt;init&gt;"/>
         <entry filename="Rez" id="25" lineNum="17" parent="globals/Rez/Layouts" pc="268436085" symbol="WatchFace"/>
         <entry filename="Rez" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268436097" symbol="WatchFace"/>
         <entry filename="Rez" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268436121" symbol="WatchFace"/>
-        <entry filename="Rez" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268436284" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="10" parent="globals/Rez/Layouts" pc="268436359" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="27" lineNum="27" parent="globals/Rez/Menus" pc="268436357" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="28" lineNum="29" parent="globals/Rez/Strings" pc="268436361" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268436332" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268436332" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268436264" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="10" parent="globals/Rez/Layouts" pc="268436339" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="27" lineNum="27" parent="globals/Rez/Menus" pc="268436337" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="28" lineNum="29" parent="globals/Rez/Strings" pc="268436341" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268436312" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268436312" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -112,7 +112,6 @@
         <entry field="true" id="14" symbol="ColorLightGray"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="8389347" symbol="color"/>
         <entry field="true" id="17" symbol="ForegroundColorTitle"/>
         <entry id="11" module="true" symbol="Layouts"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
@@ -131,9 +130,9 @@
         <entry endPc="268436068" name="clockTime" stackId="3" startPc="268435767"/>
         <entry endPc="268436068" name="timeFormat" stackId="2" startPc="268435767"/>
         <entry arg="true" endPc="268436069" name="dc" stackId="1" startPc="268435763"/>
-        <entry endPc="268436310" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436097"/>
-        <entry endPc="268436310" name="rez_cmp_local_custom_drawable_18280916882100192780" stackId="2" startPc="268436097"/>
-        <entry arg="true" endPc="268436311" name="dc" stackId="1" startPc="268436085"/>
+        <entry endPc="268436290" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436097"/>
+        <entry endPc="268436290" name="rez_cmp_local_custom_drawable_16745406681774341727" stackId="2" startPc="268436097"/>
+        <entry arg="true" endPc="268436291" name="dc" stackId="1" startPc="268436085"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -169,7 +168,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436331" name="&lt;init&gt;" parent="Background" startPc="268436313">
+        <functionEntry accessMode="protected" endPc="268436311" name="&lt;init&gt;" parent="Background" startPc="268436293">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435590" name="initialize" parent="mattermetricsApp" startPc="268435568">
@@ -189,7 +188,7 @@
         <functionEntry accessMode="public" endPc="268435663" name="onSettingsChanged" parent="mattermetricsApp" startPc="268435643">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436399" name="&lt;init&gt;" parent="mattermetricsApp" startPc="268436381">
+        <functionEntry accessMode="protected" endPc="268436379" name="&lt;init&gt;" parent="mattermetricsApp" startPc="268436361">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435692" name="getApp" startPc="268435664">
@@ -218,32 +217,32 @@
         <functionEntry accessMode="public" endPc="268436084" name="onEnterSleep" parent="mattermetricsView" startPc="268436080">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436380" name="&lt;init&gt;" parent="mattermetricsView" startPc="268436362">
+        <functionEntry accessMode="protected" endPc="268436360" name="&lt;init&gt;" parent="mattermetricsView" startPc="268436342">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436356" name="&lt;init&gt;" parent="Drawables" startPc="268436356">
+        <functionEntry accessMode="protected" endPc="268436336" name="&lt;init&gt;" parent="Drawables" startPc="268436336">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436358" name="&lt;init&gt;" parent="Fonts" startPc="268436358">
+        <functionEntry accessMode="protected" endPc="268436338" name="&lt;init&gt;" parent="Fonts" startPc="268436338">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436360" name="&lt;init&gt;" parent="JsonData" startPc="268436360">
+        <functionEntry accessMode="protected" endPc="268436340" name="&lt;init&gt;" parent="JsonData" startPc="268436340">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436311" name="WatchFace" parent="Layouts" startPc="268436085">
+        <functionEntry accessMode="public" endPc="268436291" name="WatchFace" parent="Layouts" startPc="268436085">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436359" name="&lt;init&gt;" parent="Layouts" startPc="268436359">
+        <functionEntry accessMode="protected" endPc="268436339" name="&lt;init&gt;" parent="Layouts" startPc="268436339">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436357" name="&lt;init&gt;" parent="Menus" startPc="268436357">
+        <functionEntry accessMode="protected" endPc="268436337" name="&lt;init&gt;" parent="Menus" startPc="268436337">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436361" name="&lt;init&gt;" parent="Strings" startPc="268436361">
+        <functionEntry accessMode="protected" endPc="268436341" name="&lt;init&gt;" parent="Strings" startPc="268436341">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436355" name="&lt;init&gt;" parent="Rez" startPc="268436332">
+        <functionEntry accessMode="protected" endPc="268436335" name="&lt;init&gt;" parent="Rez" startPc="268436312">
             <documentation/>
         </functionEntry>
     </functions>
