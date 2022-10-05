@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Time.Gregorian;
 
 class mattermetricsView extends WatchUi.WatchFace {
 
@@ -37,14 +38,21 @@ class mattermetricsView extends WatchUi.WatchFace {
                 hours = hours.format("%02d");
             }
         }
+
+        // Draw and update time and date
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        var timeView = View.findDrawableById("TimeLabel") as Text;
+        timeView.setColor(getApp().getProperty("ForegroundColor") as Number);
+        timeView.setText(timeString);
 
-        // Update the view
-        var view = View.findDrawableById("TimeLabel") as Text;
-        view.setColor(getApp().getProperty("ForegroundColor") as Number);
-        view.setText(timeString);
+        // Draw date
+        var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dateString = Lang.format("$1$-$2$", [info.day, info.month]);
+        var dateView = View.findDrawableById("DateLabel") as Text;
+        dateView.setColor(getApp().getProperty("ForegroundColor") as Number);
+        dateView.setText(dateString);
 
-        // Call the parent onUpdate function to redraw the layout
+        // Call the parent onUpdate function to redraw the layout level
         View.onUpdate(dc);
     }
 
