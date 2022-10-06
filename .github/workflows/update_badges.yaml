@@ -1,0 +1,29 @@
+name: Update badges
+
+on:
+  push:
+    branches: ["*"]
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    # - uses: actions/setup-python@v4
+    #   with:
+    #     python-version: '3.10' 
+
+    - name: Update badges
+      working-directory: badges
+      run: |
+        python badgecreator.py
+        cat downloads.svg
+        cat rating.svg
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        default_author: github_actions
+        message: 'chore: Update badges'
+        add: '*.svg'
+      
