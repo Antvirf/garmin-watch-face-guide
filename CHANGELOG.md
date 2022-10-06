@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.0.0...v1.1.0) (2022-10-06)
+
+
+### Features
+
+* expand device support ([238c478](https://github.com/Antvirf/garmin-watch-face-guide/commit/238c4784305712b0b62f5b884d1ec23603e90f7f))
+
 ## 1.0.0 (2022-10-06)
 
 
