@@ -17,8 +17,6 @@ jobs:
       working-directory: badges
       run: |
         python badgecreator.py
-        cat downloads.svg
-        cat rating.svg
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
