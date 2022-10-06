@@ -30,8 +30,14 @@ if __name__ == "__main__":
         r"https://apps.garmin.com/en-US/apps/38b1b25e-3cf7-4993-9fd9-7ced64eb3564"
     ).text
 
-    downloads = find_downloads(text)
-    rating = find_rating(text)
+    try:
+        downloads = find_downloads(text)
+        create_badge("downloads", downloads)
+    except:
+        print("Downloads not found, badge not created")
 
-    create_badge("downloads", downloads)
-    create_badge("rating", rating)
+    try:
+        rating = find_rating(text)
+        create_badge("rating", rating)
+    except:
+        print("Downloads not found, badge not created")
