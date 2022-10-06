@@ -173,14 +173,14 @@ class mattermetricsView extends WatchUi.WatchFace {
         // Draw and update time and date
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
         var timeView = View.findDrawableById("TimeLabel") as Text;
-        timeView.setColor(getApp().getProperty("ForegroundColor") as Number);
+        timeView.setColor(0xFFFFFF);
         timeView.setText(timeString);
 
         // Draw date
         var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var dateString = Lang.format("$1$-$2$", [info.day, info.month]);
         var dateView = View.findDrawableById("DateLabel") as Text;
-        dateView.setColor(getApp().getProperty("ForegroundColor") as Number);
+        dateView.setColor(0xFFFFFF);
         dateView.setText(dateString);
 
         // Call the parent onUpdate function to redraw the layout level
