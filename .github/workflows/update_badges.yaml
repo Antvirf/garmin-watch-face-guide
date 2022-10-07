@@ -3,6 +3,8 @@ name: Update badges
 on:
   push:
     branches: ["*"]
+  schedule:
+    - cron:  '0 12 * * 1'
 
 jobs:
   update-badges:
