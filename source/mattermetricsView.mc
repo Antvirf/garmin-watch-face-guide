@@ -35,13 +35,7 @@ class mattermetricsView extends WatchUi.WatchFace {
         var textInnerRad = innerRad - 15 * scale_to_fenix;
         
         for (var i = 0; i < hours.size(); i += 1) {
-            //var degreesangle = hours[i]/12.0 * 360-120;
             var angle = (hours[i]/360.0)*2*Math.PI+Math.PI/2.0;
-            // var sY = outerRad + innerRad * Math.sin(angle);
-            // var eY = outerRad + outerRad * Math.sin(angle);
-            // var sX = outerRad + innerRad * Math.cos(angle);
-            // var eX = outerRad + outerRad * Math.cos(angle);
-
             var sX = outerRad + innerRad * Math.cos(angle);
             var sY = outerRad + innerRad * Math.sin(angle);
 
@@ -98,10 +92,6 @@ class mattermetricsView extends WatchUi.WatchFace {
         if (arcLengthInDegrees > 180){
             if (direction == 1) {
                 arcLengthInDegrees = arcLengthInDegrees-90;
-                // var tempval = arcStart;
-                // arcStart = arcEnd;
-                // arcEnd = tempval;
-                // direction = 1;
             } else {
                 arcLengthInDegrees = arcLengthInDegrees;
             }
