@@ -103,6 +103,8 @@ class mattermetricsView extends WatchUi.WatchFace {
         // Make sure proportion isn't 0.0
         if (proportion == 0){
             proportion = 0.01;
+        } else if (proportion < 0){
+            proportion = 0.01;
         }
 
         var arcEndActual = arcStart + proportion*arcLengthInDegrees;
@@ -191,8 +193,26 @@ class mattermetricsView extends WatchUi.WatchFace {
         drawGauge(dc, 6, 2, 1, 0.0, 100.0, bat, ["0", "100%", batStr]);
 
         // Draw sunrise and sunset
-        var timeAmount = clockTime.hour*100.0 + clockTime.min/1.0;
-        drawGauge(dc, 10, 4, 1, 615.0, 1830.0, timeAmount, ["0615", "1830", ""]);
+        // Define start and end times
+        var startHour = 6;
+        var startMin =  15;
+        var endHour = 18;
+        var endMin = 30;
+
+        // Compute total time difference in minutes
+        var timeDiffTotal = (endHour-startHour)*60 +(endMin-startMin);
+
+        // Compute diff from current time
+        var timeDiffCurrent = (clockTime.hour - startHour)*60 + (clockTime.min - startMin);
+        if (timeDiffCurrent>timeDiffTotal) {
+            timeDiffCurrent = timeDiffTotal;
+        } else if (timeDiffCurrent.toFloat()/timeDiffTotal.toFloat()<0.01){
+            // If the value is too small, it will get rounded down, making arc start and end values being identical
+            timeDiffCurrent = timeDiffTotal.toFloat()*0.011; 
+        }
+
+        //var timeAmount = clockTime.hour*100.0 + clockTime.min/1.0;
+        drawGauge(dc, 10, 4, 1, 0.0, timeDiffTotal.toFloat(), timeDiffCurrent.toFloat(), ["0615", "1830", ""]);
     }
 
     // Called when this View is removed from the screen. Save the
