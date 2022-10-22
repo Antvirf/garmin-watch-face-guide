@@ -20,4 +20,47 @@
             <listEntry value="3">"ddd (e.g. Mon): Day of week, text"</listEntry>
 		</settingConfig>
     </setting>
+
+	<setting propertyKey="@Properties.TimeGaugeStartValue" title="@Strings.TimeGaugeStartString">
+		<settingConfig type="list">
+            <listEntry value="0">"0600"</listEntry>
+            <listEntry value="1">"0630"</listEntry>
+            <listEntry value="2">"0700"</listEntry>
+            <listEntry value="3">"0730"</listEntry>
+            <listEntry value="4">"0800"</listEntry>
+            <listEntry value="5">"0830"</listEntry>
+            <listEntry value="6">"0900"</listEntry>
+            <listEntry value="7">"0930"</listEntry>
+            <listEntry value="8">"1000"</listEntry>
+            <listEntry value="9">"1030"</listEntry>
+            <listEntry value="10">"1100"</listEntry>
+            <listEntry value="11">"1130"</listEntry>
+            <listEntry value="12">"1200"</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.TimeGaugeEndValue" title="@Strings.TimeGaugeEndString">
+		<settingConfig type="list">
+            <listEntry value="0">"1300"</listEntry>
+            <listEntry value="1">"1330"</listEntry>
+            <listEntry value="2">"1400"</listEntry>
+            <listEntry value="3">"1430"</listEntry>
+            <listEntry value="4">"1500"</listEntry>
+            <listEntry value="5">"1530"</listEntry>
+            <listEntry value="6">"1600"</listEntry>
+            <listEntry value="7">"1630"</listEntry>
+            <listEntry value="8">"1700"</listEntry>
+            <listEntry value="9">"1730"</listEntry>
+            <listEntry value="10">"1800"</listEntry>
+            <listEntry value="11">"1830"</listEntry>
+            <listEntry value="12">"1900"</listEntry>
+            <listEntry value="13">"1930"</listEntry>
+            <listEntry value="14">"2000"</listEntry>
+            <listEntry value="15">"2030"</listEntry>
+            <listEntry value="16">"2100"</listEntry>
+            <listEntry value="17">"2130"</listEntry>
+            <listEntry value="18">"2200"</listEntry>
+            <listEntry value="19">"2230"</listEntry>
+		</settingConfig>
+	</setting>
 </settings>

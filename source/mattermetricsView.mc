@@ -68,6 +68,96 @@ class mattermetricsView extends WatchUi.WatchFace {
                 return Lang.format("$1$", [longInfo.day_of_week]);
 	    }
     }
+
+    // Get corresponding start time value, given app setting
+    private function getStartTimeValue(dc as Dc, option as Number) as Array<Number>{
+        switch (option){
+            case 0:
+                return [6,0];
+            case 1:
+                return [6,30];
+            case 2:
+                return [7,0];
+            case 3:
+                return [7,30];
+            case 4:
+                return [8,0];
+            case 5:
+                return [8,30];
+            case 6:
+                return [9,0];
+            case 7:
+                return [9,30];
+            case 8:
+                return [10,0];
+            case 9:
+                return [10,30];
+            case 10:
+                return [11,0];
+            case 11:
+                return [11,30];
+            case 12:
+                return [12,0];
+            case 13:
+                return [12,30];
+        }
+    }
+
+    // Get corresponding end time value, given app setting
+    private function getEndTimeValue(dc as Dc, option as Number) as Array<Number>{
+        switch (option){
+            case 0:
+                return [13,0];
+            case 1:
+                return [13,30];
+            case 2:
+                return [14,0];
+            case 3:
+                return [14,30];
+            case 4:
+                return [15,0];
+            case 5:
+                return [15,30];
+            case 6:
+                return [16,0];
+            case 7:
+                return [16,30];
+            case 8:
+                return [17,0];
+            case 9:
+                return [17,30];
+            case 10:
+                return [18,0];
+            case 11:
+                return [18,30];
+            case 12:
+                return [19,0];
+            case 13:
+                return [19,30];
+            case 14:
+                return [20,0];
+            case 15:
+                return [20,30];
+            case 16:
+                return [21,0];
+            case 17:
+                return [21,30];
+            case 18:
+                return [22,0];
+            case 19:
+                return [22,30];
+        }
+    }
+
+    // Convert timevalue arrays into a nicely formatted string
+    private function prettifyTimeArray(input as Array<Number>) as String {
+        if (getApp().getProperty("UseMilitaryFormat")) {
+            return input[0].format("%02d") + input[1].format("%02d");
+        } else {
+            return input[0].format("%02d") + ":" + input[1].format("%02d");
+        }
+    }
+
     // Draw gauge function
     private function drawGauge(
         dc as Dc,
@@ -211,10 +301,15 @@ class mattermetricsView extends WatchUi.WatchFace {
 
         // Draw sunrise and sunset
         // Define start and end times
-        var startHour = 6;
-        var startMin =  15;
-        var endHour = 18;
-        var endMin = 30;
+        var timeStart = getStartTimeValue(dc, Application.getApp().Properties.getValue("TimeGaugeStartValue"));
+        var timeEnd = getEndTimeValue(dc, Application.getApp().Properties.getValue("TimeGaugeEndValue"));
+        var prettyStartTime = prettifyTimeArray(timeStart);
+        var prettyEndTime = prettifyTimeArray(timeEnd);
+
+        var startHour = timeStart[0]; //6;
+        var startMin =  timeStart[1]; //15;
+        var endHour = timeEnd[0]; //18;
+        var endMin = timeEnd[1]; //30;
 
         // Compute total time difference in minutes
         var timeDiffTotal = (endHour-startHour)*60 +(endMin-startMin);
@@ -229,7 +324,7 @@ class mattermetricsView extends WatchUi.WatchFace {
         }
 
         //var timeAmount = clockTime.hour*100.0 + clockTime.min/1.0;
-        drawGauge(dc, 10, 4, 1, 0.0, timeDiffTotal.toFloat(), timeDiffCurrent.toFloat(), ["0615", "1830", ""]);
+        drawGauge(dc, 10, 4, 1, 0.0, timeDiffTotal.toFloat(), timeDiffCurrent.toFloat(), [prettyStartTime, prettyEndTime, ""]);
     }
 
     // Called when this View is removed from the screen. Save the

@@ -3,4 +3,6 @@
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
     <string id="DateInfoFirstString">1st date field</string>
 	<string id="DateInfoSecondString">2nd date field</string>
+    <string id="TimeGaugeStartString">Start time for daylight gauge</string>
+    <string id="TimeGaugeEndString">End time for daylight gauge</string>
 </strings>
