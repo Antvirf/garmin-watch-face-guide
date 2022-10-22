@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.1.0...v1.2.0) (2022-10-22)
+
+
+### Features
+
+* add date format customisation options ([236d7be](https://github.com/Antvirf/garmin-watch-face-guide/commit/236d7be3b277eef08f73c600d46aeaee76f0511d))
+* add time gauge customisation options ([cb79f42](https://github.com/Antvirf/garmin-watch-face-guide/commit/cb79f42f66411ba20838da754c4c2e87bfd0a483))
+
+
+### Bug Fixes
+
+* correct date gauge progression logic ([b5e4bb8](https://github.com/Antvirf/garmin-watch-face-guide/commit/b5e4bb829de43d79e27947adb8283512b2797d97))
+
 ## [1.1.0](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.0.0...v1.1.0) (2022-10-06)
 
 
