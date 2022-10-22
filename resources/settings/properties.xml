@@ -1,3 +1,5 @@
 <properties>
     <property id="UseMilitaryFormat" type="boolean">true</property>
+    <property id="DateInfoFirst" type="number">0</property>
+    <property id="DateInfoSecond" type="number">1</property>
 </properties>

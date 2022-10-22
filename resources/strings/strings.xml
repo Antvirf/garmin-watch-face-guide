@@ -1,4 +1,6 @@
 <strings>
     <string id="AppName">mattermetrics</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="DateInfoFirstString">1st date field</string>
+	<string id="DateInfoSecondString">2nd date field</string>
 </strings>

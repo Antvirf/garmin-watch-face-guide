@@ -2,4 +2,22 @@
     <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
         <settingConfig type="boolean" />
     </setting>
+
+	<setting propertyKey="@Properties.DateInfoFirst" title="@Strings.DateInfoFirstString">
+		<settingConfig type="list">
+			<listEntry value="0">"dd (e.g. 31): Day of month, number"</listEntry>
+			<listEntry value="1">"mm (e.g. 12): Month of year, number"</listEntry>
+            <listEntry value="2">"mmm (e.g. Oct): Month of year, text"</listEntry>
+            <listEntry value="3">"ddd (e.g. Mon): Day of week, text"</listEntry>
+		</settingConfig>
+    </setting>
+
+	<setting propertyKey="@Properties.DateInfoSecond" title="@Strings.DateInfoSecondString">
+		<settingConfig type="list">
+			<listEntry value="0">"dd (e.g. 31): Day of month, number"</listEntry>
+			<listEntry value="1">"mm (e.g. 12): Month of year, number"</listEntry>
+            <listEntry value="2">"mmm (e.g. Oct): Month of year, text"</listEntry>
+            <listEntry value="3">"ddd (e.g. Mon): Day of week, text"</listEntry>
+		</settingConfig>
+    </setting>
 </settings>

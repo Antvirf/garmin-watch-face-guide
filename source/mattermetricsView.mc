@@ -53,6 +53,21 @@ class mattermetricsView extends WatchUi.WatchFace {
         }
     }
 
+    // Get corresponding string value for date field, given app setting
+    private function getDateInfoAsString(dc as Dc, option as Number) as String {
+        var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var longInfo = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+	    switch (option){
+	    	case 0: // Day of month, number
+			   	return Lang.format("$1$", [info.day]);
+	    	case 1: // Month of year, number
+                return Lang.format("$1$", [info.month]);
+	    	case 2: // Month of year, text
+                return Lang.format("$1$", [longInfo.month]);
+	    	case 3: // Day of week, text
+                return Lang.format("$1$", [longInfo.day_of_week]);
+	    }
+    }
     // Draw gauge function
     private function drawGauge(
         dc as Dc,
@@ -169,8 +184,10 @@ class mattermetricsView extends WatchUi.WatchFace {
         timeView.setText(timeString);
 
         // Draw date
-        var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        var dateString = Lang.format("$1$-$2$", [info.day, info.month]);
+        var dateFirstPart = getDateInfoAsString(dc, Application.getApp().Properties.getValue("DateInfoFirst"));
+        var dateSecondPart = getDateInfoAsString(dc, Application.getApp().Properties.getValue("DateInfoSecond"));
+        var dateString = dateFirstPart + "-" + dateSecondPart;
+
         var dateView = View.findDrawableById("DateLabel") as Text;
         dateView.setColor(0xFFFFFF);
         dateView.setText(dateString);
