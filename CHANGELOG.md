@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.2.0...v1.2.1) (2022-10-23)
+
+
+### Bug Fixes
+
+* remove quotes from settings options ([2a35fa8](https://github.com/Antvirf/garmin-watch-face-guide/commit/2a35fa8bcfa4ecd269cbd293da5804b9f80de89a))
+
 ## [1.2.0](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.1.0...v1.2.0) (2022-10-22)
 
 
