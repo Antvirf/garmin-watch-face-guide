@@ -5,62 +5,62 @@
 
 	<setting propertyKey="@Properties.DateInfoFirst" title="@Strings.DateInfoFirstString">
 		<settingConfig type="list">
-			<listEntry value="0">"dd (e.g. 31): Day of month, number"</listEntry>
-			<listEntry value="1">"mm (e.g. 12): Month of year, number"</listEntry>
-            <listEntry value="2">"mmm (e.g. Oct): Month of year, text"</listEntry>
-            <listEntry value="3">"ddd (e.g. Mon): Day of week, text"</listEntry>
+			<listEntry value="0">dd (e.g. 31): Day of month, number</listEntry>
+			<listEntry value="1">mm (e.g. 12): Month of year, number</listEntry>
+            <listEntry value="2">mmm (e.g. Oct): Month of year, text</listEntry>
+            <listEntry value="3">ddd (e.g. Mon): Day of week, text</listEntry>
 		</settingConfig>
     </setting>
 
 	<setting propertyKey="@Properties.DateInfoSecond" title="@Strings.DateInfoSecondString">
 		<settingConfig type="list">
-			<listEntry value="0">"dd (e.g. 31): Day of month, number"</listEntry>
-			<listEntry value="1">"mm (e.g. 12): Month of year, number"</listEntry>
-            <listEntry value="2">"mmm (e.g. Oct): Month of year, text"</listEntry>
-            <listEntry value="3">"ddd (e.g. Mon): Day of week, text"</listEntry>
+			<listEntry value="0">dd (e.g. 31): Day of month, number</listEntry>
+			<listEntry value="1">mm (e.g. 12): Month of year, number</listEntry>
+            <listEntry value="2">mmm (e.g. Oct): Month of year, text</listEntry>
+            <listEntry value="3">ddd (e.g. Mon): Day of week, text</listEntry>
 		</settingConfig>
     </setting>
 
 	<setting propertyKey="@Properties.TimeGaugeStartValue" title="@Strings.TimeGaugeStartString">
 		<settingConfig type="list">
-            <listEntry value="0">"0600"</listEntry>
-            <listEntry value="1">"0630"</listEntry>
-            <listEntry value="2">"0700"</listEntry>
-            <listEntry value="3">"0730"</listEntry>
-            <listEntry value="4">"0800"</listEntry>
-            <listEntry value="5">"0830"</listEntry>
-            <listEntry value="6">"0900"</listEntry>
-            <listEntry value="7">"0930"</listEntry>
-            <listEntry value="8">"1000"</listEntry>
-            <listEntry value="9">"1030"</listEntry>
-            <listEntry value="10">"1100"</listEntry>
-            <listEntry value="11">"1130"</listEntry>
-            <listEntry value="12">"1200"</listEntry>
+            <listEntry value="0">06:00</listEntry>
+            <listEntry value="1">06:30</listEntry>
+            <listEntry value="2">07:00</listEntry>
+            <listEntry value="3">07:30</listEntry>
+            <listEntry value="4">08:00</listEntry>
+            <listEntry value="5">08:30</listEntry>
+            <listEntry value="6">09:00</listEntry>
+            <listEntry value="7">09:30</listEntry>
+            <listEntry value="8">10:00</listEntry>
+            <listEntry value="9">10:30</listEntry>
+            <listEntry value="10">11:00</listEntry>
+            <listEntry value="11">11:30</listEntry>
+            <listEntry value="12">12:00</listEntry>
 		</settingConfig>
 	</setting>
 
 	<setting propertyKey="@Properties.TimeGaugeEndValue" title="@Strings.TimeGaugeEndString">
 		<settingConfig type="list">
-            <listEntry value="0">"1300"</listEntry>
-            <listEntry value="1">"1330"</listEntry>
-            <listEntry value="2">"1400"</listEntry>
-            <listEntry value="3">"1430"</listEntry>
-            <listEntry value="4">"1500"</listEntry>
-            <listEntry value="5">"1530"</listEntry>
-            <listEntry value="6">"1600"</listEntry>
-            <listEntry value="7">"1630"</listEntry>
-            <listEntry value="8">"1700"</listEntry>
-            <listEntry value="9">"1730"</listEntry>
-            <listEntry value="10">"1800"</listEntry>
-            <listEntry value="11">"1830"</listEntry>
-            <listEntry value="12">"1900"</listEntry>
-            <listEntry value="13">"1930"</listEntry>
-            <listEntry value="14">"2000"</listEntry>
-            <listEntry value="15">"2030"</listEntry>
-            <listEntry value="16">"2100"</listEntry>
-            <listEntry value="17">"2130"</listEntry>
-            <listEntry value="18">"2200"</listEntry>
-            <listEntry value="19">"2230"</listEntry>
+            <listEntry value="0">13:00</listEntry>
+            <listEntry value="1">13:30</listEntry>
+            <listEntry value="2">14:00</listEntry>
+            <listEntry value="3">14:30</listEntry>
+            <listEntry value="4">15:00</listEntry>
+            <listEntry value="5">15:30</listEntry>
+            <listEntry value="6">16:00</listEntry>
+            <listEntry value="7">16:30</listEntry>
+            <listEntry value="8">17:00</listEntry>
+            <listEntry value="9">17:30</listEntry>
+            <listEntry value="10">18:00</listEntry>
+            <listEntry value="11">18:30</listEntry>
+            <listEntry value="12">19:00</listEntry>
+            <listEntry value="13">19:30</listEntry>
+            <listEntry value="14">20:00</listEntry>
+            <listEntry value="15">20:30</listEntry>
+            <listEntry value="16">21:00</listEntry>
+            <listEntry value="17">21:30</listEntry>
+            <listEntry value="18">22:00</listEntry>
+            <listEntry value="19">22:30</listEntry>
 		</settingConfig>
 	</setting>
 </settings>
