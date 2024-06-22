@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.2.1...v1.2.2) (2024-06-22)
+
+
+### Bug Fixes
+
+* badge automation ([98f7bf8](https://github.com/Antvirf/garmin-watch-face-guide/commit/98f7bf8b6dcab0a2f31a90ea47e5b69c1ec26fe5))
+
 ## [1.2.1](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.2.0...v1.2.1) (2022-10-23)
 
 
