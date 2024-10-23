@@ -69,6 +69,13 @@ class mattermetricsView extends WatchUi.WatchFace {
 	    }
     }
 
+
+    // Get UTC timestamp
+    private function getUTCInfoAsString(dc as Dc) as String {
+        var info = Gregorian.utcInfo(Time.now(), Time.FORMAT_SHORT);
+			  return Lang.format("$1$", [info.value]);
+    }
+
     // Get corresponding start time value, given app setting
     private function getStartTimeValue(dc as Dc, option as Number) as Array<Number>{
         switch (option){
@@ -256,14 +263,19 @@ class mattermetricsView extends WatchUi.WatchFace {
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        var utcHours = clockTime.hour - clockTime.timeZoneOffset/3600;
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
+            }
+            if (utcHours > 12) {
+                utcHours = utcHours - 12;
             }
         } else {
             if (getApp().getProperty("UseMilitaryFormat")) {
                 timeFormat = "$1$$2$";
                 hours = hours.format("%02d");
+                utcHours = utcHours.format("%02d");
             }
         }
 
@@ -281,6 +293,20 @@ class mattermetricsView extends WatchUi.WatchFace {
         var dateView = View.findDrawableById("DateLabel") as Text;
         dateView.setColor(0xFFFFFF);
         dateView.setText(dateString);
+
+        // Draw UTC timestamp
+        if (Application.getApp().getProperty("DrawDevTools")) {
+          var utcTimeString = Lang.format(timeFormat, [utcHours, clockTime.min.format("%02d")]);
+          var utcView = View.findDrawableById("UTCTime") as Text;
+          utcView.setColor(0xFFFFFF);
+          utcView.setText(utcTimeString);
+
+          var utcLabel = View.findDrawableById("UTCTimestamp") as Text;
+          utcLabel.setColor(Graphics.COLOR_DK_GRAY);
+          var timestamp = new Time.Moment(Time.now().value());
+          var tsPrint = Lang.format("$1$", [timestamp.value()]);
+          utcLabel.setText(tsPrint);
+        }
 
         // Call the parent onUpdate function to redraw the layout level
         View.onUpdate(dc);

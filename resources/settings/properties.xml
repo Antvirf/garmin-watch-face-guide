@@ -2,6 +2,7 @@
     <property id="UseMilitaryFormat" type="boolean">true</property>
     <property id="DateInfoFirst" type="number">0</property>
     <property id="DateInfoSecond" type="number">1</property>
+    <property id="DrawDevTools" type="boolean">false</property>
     <property id="TimeGaugeStartValue" type="number">1</property>
     <property id="TimeGaugeEndValue" type="number">10</property>
 </properties>

@@ -2,4 +2,6 @@
     <drawable class="Background" />
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_SYSTEM_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
     <label id="DateLabel" x="center" y="20%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    <label id="UTCTimestamp" x="center" y="62%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    <label id="UTCTime" x="center" y="68%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
 </layout>

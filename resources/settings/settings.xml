@@ -19,7 +19,14 @@
             <listEntry value="2">mmm (e.g. Oct): Month of year, text</listEntry>
             <listEntry value="3">ddd (e.g. Mon): Day of week, text</listEntry>
 		</settingConfig>
-    </setting>
+  </setting>
+
+
+	<setting propertyKey="@Properties.DrawDevTools" title="@Strings.DrawDevToolsString">
+		<settingConfig type="boolean">
+		</settingConfig>
+  </setting>
+
 
 	<setting propertyKey="@Properties.TimeGaugeStartValue" title="@Strings.TimeGaugeStartString">
 		<settingConfig type="list">
