@@ -4,3 +4,6 @@
 ![rating](https://raw.githubusercontent.com/Antvirf/garmin-watch-face-guide/main/badges/rating.svg)
 
 Post with full details can be found [here](https://aviitala.com/posts/garmin-watchface-tutorial/).
+
+*Note: Downloads counter is now broken by Garmin's updates that hide download counts.*
+
