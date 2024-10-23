@@ -272,6 +272,11 @@ class mattermetricsView extends WatchUi.WatchFace {
                 utcHours = utcHours - 12;
             }
         } else {
+            // If its negative, need to add 24
+            if (utcHours < 0) {
+                utcHours = utcHours + 24;
+              }
+
             if (getApp().getProperty("UseMilitaryFormat")) {
                 timeFormat = "$1$$2$";
                 hours = hours.format("%02d");
