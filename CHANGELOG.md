@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.2.1...v1.3.0) (2025-08-31)
+
+
+### Features
+
+* add optional UTC + UTC timestamp ([ea02e42](https://github.com/Antvirf/garmin-watch-face-guide/commit/ea02e4245837149bd3c350c74aae940f3f62c9b2))
+* build for enduro 3 ([c8a95c2](https://github.com/Antvirf/garmin-watch-face-guide/commit/c8a95c238e08d08c7ab74a76c00183597ac0b496))
+
+
+### Bug Fixes
+
+* badge automation ([98f7bf8](https://github.com/Antvirf/garmin-watch-face-guide/commit/98f7bf8b6dcab0a2f31a90ea47e5b69c1ec26fe5))
+* bug with 24 hr time going negative ([c7d270e](https://github.com/Antvirf/garmin-watch-face-guide/commit/c7d270ed40a4e291772c6a964259fc9aa16f503f))
+
 ## [1.2.1](https://github.com/Antvirf/garmin-watch-face-guide/compare/v1.2.0...v1.2.1) (2022-10-23)
 
 
